@@ -21,6 +21,9 @@ The following programs are required.
 
 2. Python 3 and additional libraries (pyvisa, PyQt5, matplotlib): ```pip install pyvisa, PyQt5, matplotlib```
 
+## Example
+<img src="https://github.com/knu-wcsl/fieldfox_SA_program/blob/master/test_run.png" width="70%">
+
 
 ## Reference
 
