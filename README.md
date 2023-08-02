@@ -5,11 +5,11 @@ This program collects measurement data from a FieldFox device running on Spectru
 
 ## Usage
 
-1. Make sure that your computer and FieldFox are connected via Ethernet cable.  
+1. Make sure your computer is connected to a FieldFox via Ethernet cable.  
 (https://www.youtube.com/watch?v=eFyncm23YpY)
 
 
-2. Run main.py file and enter IP address of FieldFox.
+2. Run main.py file and enter IP address of FieldFox to connect.
 
 
 
@@ -19,7 +19,7 @@ The following programs are required.
 
 1. Keysight IO Library Suite  
 
-2. Python 3 and additional libraries (pyvisa, PyQt5, matplotlib): ```pip install pyvisa, PyQt5, matplotlib```
+2. Python 3 and additional libraries (pyvisa, PyQt5, matplotlib): ```pip install pyvisa PyQt5 matplotlib```
 
 ## Example
 <img src="https://github.com/knu-wcsl/fieldfox_SA_program/blob/master/test_run.png" width="70%">
@@ -27,8 +27,8 @@ The following programs are required.
 
 ## Reference
 
-The program only supports SA mode for our purposes, but you can find more diverse features from the document below.  
-https://www.keysight.com/us/en/assets/9921-02561/programming-guides/FFProgrammingHelp.pdf
+The program supports SA mode only for our purposes, but you can find more diverse features from the document below.  
+(https://www.keysight.com/us/en/assets/9921-02561/programming-guides/FFProgrammingHelp.pdf)
 
 
 ## Contact
