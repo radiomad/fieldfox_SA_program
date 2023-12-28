@@ -237,7 +237,7 @@ class WindowClass(QMainWindow, uic.loadUiType('main.ui')[0]):
 if __name__ == "__main__" :
     if not os.path.exists(measurement_foldername):
         os.makedirs(measurement_foldername)
-    os.add_dll_directory("C:\\Program Files\\Keysight\\IO Libraries Suite\\bin")
+    # os.add_dll_directory("C:\\Program Files\\Keysight\\IO Libraries Suite\\bin") # removed for linux compatabilty
     os.environ['QT_AUTO_SCREEN_SCALE_FACTOR'] = '1'
 
     # run application
